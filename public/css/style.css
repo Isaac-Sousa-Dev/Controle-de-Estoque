@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+/* General */
+body {
+    background: url(/img/fundo-estoque.png);
+    background-size: cover;
+}
+#index-container{
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(31, 29, 29); 
+    border-radius: 13px;
+}
+#index-container h5, p{
+    color: white;
+}
+#index-container #nav-link-edit{
+    color: yellow;
+}
+#index-container #nav-link-delete{
+    color: red;
+}
+#index-container .card-body a{
+    font-weight: bold;
+}
+#dash .msg{
+    font-weight: 600;
+    background-color: rgb(72, 205, 72);
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 420px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#dash .msg-error{
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(233, 54, 54);
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 420px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#show-container {
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 280px;
+    background-color: rgb(31, 29, 29);
+    color: #fff;
+    font-weight: bold;
+}
+#show-container-ul li{
+    background-color: rgb(31, 29, 29);
+    color: #fff;
+}
+#show-container .card-header{
+    text-align: center;
+}
+#show-container-button{
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin-top: 25px;
+}
+#img-logo{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Style Inicial */
+.container-inicial h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-count {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.container-count p{
+    color: blue;
+}
+.container-img{
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 425px;
+}
+
+
+/* Style Dashboard */
+.container-dashboard h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+#table-dashboard{
+    margin-top: 40px;
+}
+
+
+/* Style Equipamento */
+#cadastro-container{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    background-color: rgb(31, 29, 29);color: white;
+    border-radius: 15px;
+}
+.card-body{
+    padding-top: 90px;
+}
+
+/* Navbar */
+#links-navbar{
+    margin-left: 800px;
+}
+.nav-link{
+    color: white;
+    margin-right: 30px;
+}
+#input-search{
+    border-radius: 50px;
+}
+#button-search{
+    border-radius: 50px;
+}
+
+
+/* Style Monitor */
+#container-monitor{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+#container-monitor h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.form-container-monitor {
+    margin-top: 20px;
+
+}
+.form-container-monitor label {
+    font-weight: bold;
+    color: white;
+}
+#index-container-monitor {
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(31, 29, 29);
+}
+.card-cadastro-monitor{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 525px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 10px;
+}
+
+
+/* Style Notebook */
+#container-notebook{
+    margin-top: 30px;
+    padding-top: 20px;
+}
+#container-notebook h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.form-container-notebook {
+    margin-top: 20px;
+}
+.form-container-notebook label {
+    font-weight: bold;
+    color: white;
+}
+#index-container-notebook {
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(31, 29, 29);
+}
+.card-cadastro-notebook{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 525px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 10px;
+}
+
+
+
+/* Style Computador */
+#container-computador {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+#container-computador h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.form-container-computador {
+    margin-top: 20px;
+}
+.form-container-computador label {
+    font-weight: bold;
+    color: white;
+}
+.card-cadastro-computador{
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    height: 525px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 10px;
+}
+
+/* Tela Dashboard */
+.card{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border-top-right-radius: 10px;  
+    height: 300px;
+}
+#img-dash-notebook{
+    width: 100px;
+    height: 100px;
+}
+#img-dash-monitor{
+    width: 90px;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 100px;
+}
+#img-dash-computador{
+    height: 100px;
+    width: 80px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.btn-dash{
+    padding-left: 120px;
+}
+#h1-dash{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* Tela de Login */
+
+
+/* Tela Index */
+.btn-voltar-index{
+    padding-left: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+.link-voltar-index{
+    color: #fff; 
+    text-decoration: none;
+}
+.icon-link-index{
+    color: #fff; 
+    width: 50px; 
+    height: 40px;  
+    border-radius: 10px;
+    text-decoration: none;
+}
+.h1-index{
+    text-align: center; 
+    padding-top: 10px; 
+    color: white; 
+    font-family: cursive; 
+    font-weight: bold;
+}
+.btn-create-index{
+    padding-left: 30px
+}
+.btn-success{
+    border-radius: 7px;
+}
+.icon-create-index{
+    color: #fff; 
+    width: 30px; 
+    height: 30px;
+}
+.table-hover{
+    margin-top: 25px
+}
+.thead-index{
+    background-color: blue
+}
+.th-index{
+    color: white
+}
+.th-action-index{
+    color: white; 
+    width: 150px
+}
+.tbody-index{
+    background-color: #ccc;
+}
+.modal-content{
+    width: 400px; 
+    margin-left: 100px; 
+    margin-top: 100px; 
+    background-color: rgb(32, 31, 31)
+}
+.modal-title{
+    text-align: center; 
+    color: #fff
+}
+.modal-body, .modal-header, .modal-footer{
+    background-color: rgb(32, 31, 31)
+}
+.p-modal-index{
+    background-color: rgb(32, 31, 31)
+}
+.span-modal-index{
+    color: #fff
+}
